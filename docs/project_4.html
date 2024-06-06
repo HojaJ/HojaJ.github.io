@@ -45,9 +45,11 @@
         </div>
     </div>
 </div>
-<header class="header-area border-none header-four-area">
+
+
+<header class="header-area animated menu-fixed fadeInDown">
     <div class="container">
-        <div class="header__main header__main-four">
+        <div class="header__main">
             <a href="index.html" class="logo">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none">
@@ -81,21 +83,8 @@
             </div>
 
             <div class="menu-btns d-none d-lg-flex gap-1">
-                <a class="sign-in"  href="sign-up.html">Say Hello</a>
-                <!-- <a class="menu-arry-btn" href="sign-up.html">
-                    <svg class="top-arry" width="15" height="15" viewBox="0 0 15 15" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M14.7498 1V11C14.7498 11.414 14.4138 11.75 13.9998 11.75C13.5858 11.75 13.2498 11.414 13.2498 11V2.81104L1.52981 14.531C1.38381 14.677 1.19178 14.751 0.999779 14.751C0.807779 14.751 0.61575 14.678 0.46975 14.531C0.17675 14.238 0.17675 13.763 0.46975 13.47L12.1897 1.75H3.99978C3.58578 1.75 3.24978 1.414 3.24978 1C3.24978 0.586 3.58578 0.25 3.99978 0.25H13.9998C14.0978 0.25 14.1949 0.270105 14.2869 0.308105C14.4699 0.384105 14.6159 0.530111 14.6929 0.714111C14.7299 0.805111 14.7498 0.902 14.7498 1Z"
-                            fill="#151314" />
-                    </svg>
-                    <svg class="bottom-arry" width="15" height="15" viewBox="0 0 15 15" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M14.7498 1V11C14.7498 11.414 14.4138 11.75 13.9998 11.75C13.5858 11.75 13.2498 11.414 13.2498 11V2.81104L1.52981 14.531C1.38381 14.677 1.19178 14.751 0.999779 14.751C0.807779 14.751 0.61575 14.678 0.46975 14.531C0.17675 14.238 0.17675 13.763 0.46975 13.47L12.1897 1.75H3.99978C3.58578 1.75 3.24978 1.414 3.24978 1C3.24978 0.586 3.58578 0.25 3.99978 0.25H13.9998C14.0978 0.25 14.1949 0.270105 14.2869 0.308105C14.4699 0.384105 14.6159 0.530111 14.6929 0.714111C14.7299 0.805111 14.7498 0.902 14.7498 1Z"
-                            fill="#151314" />
-                    </svg>
-                </a> -->
+                <a class="sign-in" href="sign-up.html">Say Hello</a>
+
             </div>
             <button class="menubars d-block d-lg-none" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#menubar">
@@ -113,8 +102,7 @@
         <a href="index.html" class="logo">
             <img src="assets/images/logo/logo-light.svg" alt="logo">
         </a>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
-                class="fa-regular fa-xmark"></i></button>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="fa-regular fa-xmark"></i></button>
     </div>
     <div class="offcanvas-body sidebar__body">
         <div class="mobile-menu overflow-hidden"></div>
@@ -145,6 +133,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="ScrollSmoother-content">
     <main>
@@ -228,14 +217,23 @@
     </main>
 </div>
 
-<footer class="footer-four-area pt-60">
-    <div>
+<footer class="footer-four-area pt-60 pb-40">
+
+    <div id="child">
         <div class='footer-border'>
         </div>
         <div class='footer-container container'>
             <div class='footer-top'>
                 <a href="/" class='logo-container'>
-                    <Logo />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none">
+                        <rect x="0.107422" y="0.611816" width="42.7762" height="42.7762" rx="11.4748" fill="#01B9F9" />
+                        <path
+                            d="M29.0377 28.8918C29.2177 25.5158 29.47 21.3646 29.5652 19.0817L22.9144 19.7032L22.5871 25.0941C22.5165 27.7833 22.4819 27.8985 19.9474 28.1628L12.6662 28.8272L10.1133 35.4909C12.8508 35.222 19.3511 34.9434 22.4153 34.6291C24.7555 34.389 25.8775 34.1611 27.0418 33.2609C28.5617 32.0856 29.0274 30.0814 29.0377 28.8918Z"
+                            fill="white" />
+                        <path
+                            d="M13.3142 14.8347C13.1882 18.2806 13.0018 22.5172 12.9436 24.8477L19.6698 24.3238L19.9113 18.822C19.8745 16.3821 19.9711 15.9588 22.5339 15.7311L29.4592 14.8347L32.1641 7.81557C29.3956 8.04466 23.0248 8.81416 19.9262 9.08413C17.5599 9.29031 16.4271 9.50438 15.2629 10.4046C13.743 11.5799 13.3047 13.6196 13.3142 14.8347Z"
+                            fill="white" />
+                    </svg>
                     <div>Selbi Consulting</div>
                 </a>
                 <div class='links-container'>
@@ -276,6 +274,7 @@
         </div>
     </div>
 </footer>
+
 <button id="back-top" class="btn-backToTop">
     <i class="fa-solid fa-chevron-up"></i>
 </button>
