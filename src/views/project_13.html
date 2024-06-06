@@ -1,0 +1,35 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Jankoyer - Turkmenistan Football media service",
+        "desc": "At our company, we designed and developed the front-end and back-end for Janköýer, Turkmenistan's leading national football news website. The platform delivers real-time updates, comprehensive league tables, and in-depth analyses, providing fans with the latest news and insights into Turkmen football.",
+        "cats": [
+                "UX/UI Design",
+                "Frontend",
+                "Backend"
+            ],
+            "images": [
+            'assets/icons/projects/jankoyer/1.png',
+            'assets/icons/projects/jankoyer/2.png',
+            'assets/icons/projects/jankoyer/3.png',
+            'assets/icons/projects/jankoyer/4.png',
+            'assets/icons/projects/jankoyer/5.png',
+            'assets/icons/projects/jankoyer/6.png',
+            'assets/icons/projects/jankoyer/7.png',
+            'assets/icons/projects/jankoyer/8.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

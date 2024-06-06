@@ -1,0 +1,37 @@
+<!-- Banner area start here -->
+<section class="banner-inner-area">
+    <div class="container">
+        <div class="banner-inner__content">
+            <a href="/">home</a><span>/Case Details</span>
+            <h2>Case Details</h2>
+            <p>We will help a client's problems to develop the products they have with high quality Change
+                the
+                appearance.</p>
+        </div>
+    </div>
+</section>
+<!-- Banner area end here -->
+
+<!-- Case details area start here -->
+<section class="case-details-area pb-120">
+    <div class="container">
+        <div class="case-details__wrp">
+            <div class="case-details__info pt-60 pb-60 bor-top mt-60">
+                @@for (var i = 0; i < cats.length; i++) {
+                <div>
+                    <span>`+cats[i]+`</span>
+                </div>
+                }
+            </div>
+            <h3>@@name</h3>
+            <p>@@desc</p>
+        </div>
+
+        @@for (var i = 0; i < images.length; i++) {
+        <div class="image case-details__image my-5">
+            <img src="`+images[i]+`" alt="image">
+        </div>
+        }
+    </div>
+</section>
+<!-- Case details area end here -->

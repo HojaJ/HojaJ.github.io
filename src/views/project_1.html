@@ -1,0 +1,37 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Ragbat Brand Identity",
+        "desc": "Embodies progress and innovation in the chemical industry, specializing in producing chemicals and mixtures tailored for various applications, including the food industry. The brand exudes a sense of reli-ability, sustainability, and advancement, positioning itself as a leader in driving positive change within the chemical sector.",
+            "cats": [
+                "Branding & Identity",
+                "Logo design",
+                "Brand Guideline",
+                "Catalogue Design"
+            ],
+            "images": [
+            'assets/icons/projects/ragbat/5.png',
+            'assets/icons/projects/ragbat/6.png',
+            'assets/icons/projects/ragbat/8.png',
+            'assets/icons/projects/ragbat/9.png',
+            'assets/icons/projects/ragbat/10.png',
+            'assets/icons/projects/ragbat/11.png',
+            'assets/icons/projects/ragbat/12.png',
+            'assets/icons/projects/ragbat/13.png',
+            'assets/icons/projects/ragbat/14.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

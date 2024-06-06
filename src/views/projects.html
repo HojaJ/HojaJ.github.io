@@ -1,6 +1,19 @@
 @@include('./partials/header.html')
 
 <body>
+<style>
+    @media screen and (min-width: 1200px) {
+        .project_title {
+            max-width: 60% !important;
+        }
+    }
+    .menu-filter {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+</style>
 @@include('./partials/load.html')
 @@include('./partials/navbar-secondary.html')
 
@@ -30,110 +43,133 @@
                         and
                         achieved remarkable results.</p>
                 </div>
-                <div class="row g-5 align-items-star">
+                <div class="button-group menu-filter">
+                    <button class="btn-one button is-checked" data-filter="*">All</button>
+                    <button class="button btn-one" data-filter=".branding">Branding</button>
+                    <button class="button btn-one" data-filter=".design">UX/UI Design</button>
+                    <button class="button btn-one" data-filter=".mobile">Mobile App</button>
+                    <button class="button btn-one" data-filter=".web_app">Web application</button>
+                    <button class="button btn-one" data-filter=".web">Website</button>
+                </div>
+                <div class="row g-5 align-items-star projects">
                     @@include('./partials/products_item.html',{
                         "name": "Ragbat Brand Indentity",
                         "category": "Branding",
                         "link": "assets/icons/projects/ragbat/4.png",
-                        "page_url": "project_1.html"
+                        "page_url": "project_1.html",
+                        "cat_slug": "branding"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Dagçynar Brand Identity & Packaging",
                         "category": "Branding",
                         "link": "assets/icons/projects/dagchynar/1.png",
-                        "page_url": "project_2.html"
+                        "page_url": "project_2.html",
+                        "cat_slug": "branding"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Kidsplaza Mobile App",
                         "category": "Mobile App",
                         "link": "assets/icons/projects/kidsplaza/1.png",
-                        "page_url": "project_3.html"
+                        "page_url": "project_3.html",
+                        "cat_slug": "mobile"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "RM car washing service web application",
                         "category": "Web application",
                         "link": "assets/icons/projects/rm-web/main.png",
-                        "page_url": "project_4.html"
+                        "page_url": "project_4.html",
+                        "cat_slug": "web_app"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Timix HR Management System Web Application",
                         "category": "UX/UI Design",
                         "link": "assets/icons/projects/timix/main.png",
-                        "page_url": "project_5.html"
+                        "page_url": "project_5.html",
+                        "cat_slug": "design"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Behisht Brand Identity & Packaging",
                         "category": "Branding",
                         "link": "assets/icons/projects/behisht/1.png",
-                        "page_url": "project_6.html"
+                        "page_url": "project_6.html",
+                        "cat_slug": "branding"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Abat - Branding & Identity",
                         "category": "Branding",
                         "link": "assets/icons/projects/abat/1.png",
-                        "page_url": "project_7.html"
+                        "page_url": "project_7.html",
+                        "cat_slug": "branding"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "RM car washing service mobile app",
                         "category": "Mobile application",
                         "link": "assets/icons/projects/rm-mobile/main.png",
-                        "page_url": "project_8.html"
+                        "page_url": "project_8.html",
+                        "cat_slug": "mobile"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Kopetdag Mineral Water Package Design",
                         "category": "Branding",
                         "link": "assets/icons/projects/kopetdag/1.png",
-                        "page_url": "project_9.html"
+                        "page_url": "project_9.html",
+                        "cat_slug": "branding"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Ariator Website",
                         "category": "Website",
                         "link": "assets/icons/projects/ariator/main.png",
-                        "page_url": "project_10.html"
+                        "page_url": "project_10.html",
+                        "cat_slug": "web"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Pikir Menu Website",
                         "category": "Website",
                         "link": "assets/icons/projects/menu/main.png",
-                        "page_url": "project_11.html"
+                        "page_url": "project_11.html",
+                        "cat_slug": "web"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Akyol drinks website",
                         "category": "Website",
                         "link": "assets/icons/projects/akyol/main.png",
-                        "page_url": "project_12.html"
+                        "page_url": "project_12.html",
+                        "cat_slug": "web"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Jankoyer - Turkmenistan Football media service",
                         "category": "Website",
                         "link": "assets/icons/projects/jankoyer/main.png",
-                        "page_url": "project_13.html"
+                        "page_url": "project_13.html",
+                        "cat_slug": "web"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Magnit e-commerce website",
                         "category": "Web application",
                         "link": "assets/icons/projects/magnit/main.png",
-                        "page_url": "project_14.html"
+                        "page_url": "project_14.html",
+                        "cat_slug": "web"
                     })
 
                     @@include('./partials/products_item.html',{
                         "name": "Magnit e-commerce",
                         "category": "Mobile app",
                         "link": "assets/icons/projects/magnit-mobile/main.png",
-                        "page_url": "project_15.html"
+                        "page_url": "project_15.html",
+                        "cat_slug": "web_app"
                     })
 
                 </div>

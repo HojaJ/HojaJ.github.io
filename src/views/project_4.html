@@ -1,0 +1,36 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "RM car washing service web application",
+        "desc": "Our project is a comprehensive car washing web application designed to enhance convenience and efficiency for users seeking car wash services. The app allows users to locate and reserve car wash garages by checking the real-time availability, see which ones are occupied or free, and make reservations accordingly. Users can select from a variety of car cleaning services, including different types of foam washes and vacuuming options. Once the car is handed over for washing, the app enables users to monitor the status of their car wash in real-time. Additionally, users can rate and review the car wash services, helping to improve quality and customer satisfaction. To ensure seamless service management and user experience, we have also developed a robust admin panel for overseeing operations.",
+            "cats": [
+                "UX/UI Design",
+                "Web application",
+                "Admin Dashboard"
+            ],
+            "images": [
+            'assets/icons/projects/rm-web/1.png',
+            'assets/icons/projects/rm-web/2.png',
+            'assets/icons/projects/rm-web/3.png',
+            'assets/icons/projects/rm-web/4.png',
+            'assets/icons/projects/rm-web/5.png',
+            'assets/icons/projects/rm-web/6.png',
+            'assets/icons/projects/rm-web/7.png',
+            'assets/icons/projects/rm-web/8.png',
+            'assets/icons/projects/rm-web/9.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

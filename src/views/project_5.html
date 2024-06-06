@@ -1,0 +1,38 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Timix HR Management System Web Application",
+        "desc": "Keep your employees in one place. This HR website helps our local firms to keep track of each responsibility, working hours, to make it more efficient. We mapped the project, created user-flow, Information Architecture with Developers then Designed the project. Project build with Ant Design System.",
+            "cats": [
+                "Mapping the project",
+                "Project planning - Conulstation",
+                "UX/UI Design",
+                "Design System"
+            ],
+            "images": [
+            'assets/icons/projects/timix/1.png',
+            'assets/icons/projects/timix/2.png',
+            'assets/icons/projects/timix/3.png',
+            'assets/icons/projects/timix/4.png',
+            'assets/icons/projects/timix/5.png',
+            'assets/icons/projects/timix/6.png',
+            'assets/icons/projects/timix/7.png',
+            'assets/icons/projects/timix/8.png',
+            'assets/icons/projects/timix/9.png',
+            'assets/icons/projects/timix/10.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

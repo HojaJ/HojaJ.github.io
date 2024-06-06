@@ -1,0 +1,34 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Akyol drinks website",
+        "desc": "We had the privilege of designing and developing the website for Akyol, a leading manufacturer of energetic and fizzy drinks in Turkmenistan. Our team handled both the front-end and back-end development, creating a vibrant and user-friendly platform that showcases Akyol's diverse range of beverages.",
+        "cats": [
+                "UX/UI Design",
+                "Frontend",
+                "Backend"
+            ],
+            "images": [
+            'assets/icons/projects/akyol/1.png',
+            'assets/icons/projects/akyol/2.png',
+            'assets/icons/projects/akyol/3.png',
+            'assets/icons/projects/akyol/4.png',
+            'assets/icons/projects/akyol/5.png',
+            'assets/icons/projects/akyol/6.png',
+            'assets/icons/projects/akyol/7.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

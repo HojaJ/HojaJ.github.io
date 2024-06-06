@@ -1,0 +1,35 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Magnit e-commerce website",
+        "desc": "Experience the convenience of shopping from the comfort of your home with Magnit's comprehensive online store. Our newly designed website features an intuitive interface that makes finding and purchasing your favorite products easier than ever. With a wide range of categories, exclusive deals, and detailed product descriptions, our platform ensures you have all the information you need at your fingertips. Supported by a robust backend system and an efficient admin panel, we guarantee a smooth, secure, and reliable shopping experience.",
+        "cats": [
+                "UX/UI Design",
+                "Project planning",
+                "Frontend",
+                "Backend"
+            ],
+            "images": [
+            'assets/icons/projects/magnit/1.png',
+            'assets/icons/projects/magnit/2.png',
+            'assets/icons/projects/magnit/3.png',
+            'assets/icons/projects/magnit/4.png',
+            'assets/icons/projects/magnit/5.png',
+            'assets/icons/projects/magnit/6.png',
+            'assets/icons/projects/magnit/7.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

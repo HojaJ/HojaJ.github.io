@@ -1,0 +1,32 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Kidsplaza Mobile Appp",
+        "desc": "Your go-to e-commerce app for stylish and comfy children's clothing. From everyday wear to special occasions, find the perfect attire for your little ones with ease through app. Project is available in App store and Play store.",
+            "cats": [
+                "Logo design",
+                "Identity",
+                "Package Design"
+            ],
+            "images": [
+            'assets/icons/projects/kidsplaza/1.png',
+            'assets/icons/projects/kidsplaza/2.png',
+            'assets/icons/projects/kidsplaza/3.png',
+            'assets/icons/projects/kidsplaza/4.png',
+            'assets/icons/projects/kidsplaza/5.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

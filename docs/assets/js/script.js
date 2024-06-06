@@ -488,4 +488,23 @@ CSS TABLE OF CONTENTS
 	});
 	wow.init();
 	// WOW Animatin area start here ***
+
+
+	var $grid = $('.projects').isotope({
+		itemSelector: '.element-item',
+		layoutMode: 'fitRows'
+	});
+
+	$('.menu-filter button').on('click', function () {
+		var filterValue = $(this).attr('data-filter');
+		$grid.isotope({ filter: filterValue });
+	});
+
+	// Add active class to the current button (highlight it)
+	$('.menu-filter button').on('click', function () {
+		$(this).addClass('active').siblings().removeClass('active');
+	});
+
+
+
 })(jQuery);

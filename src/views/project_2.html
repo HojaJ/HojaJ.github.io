@@ -1,0 +1,35 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Dagçynar Brand Identity & Packaging",
+        "desc": "Kopetdag Mineral Water's packaging is a testament to its purity and natural origin. Specially crafted to preserve the pristine quality of the water, the packaging design exudes elegance and sophistication while emphasizing the product's mineral-rich properties.",
+            "cats": [
+                "Branding & Identity",
+                "Logo design",
+                "Brand Guideline",
+                "Package Design"
+            ],
+            "images": [
+            'assets/icons/projects/dagchynar/1.png',
+            'assets/icons/projects/dagchynar/2.png',
+            'assets/icons/projects/dagchynar/3.png',
+            'assets/icons/projects/dagchynar/4.png',
+            'assets/icons/projects/dagchynar/5.png',
+            'assets/icons/projects/dagchynar/6.png',
+            'assets/icons/projects/dagchynar/7.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

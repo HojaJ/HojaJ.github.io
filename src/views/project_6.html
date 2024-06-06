@@ -1,0 +1,35 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Behisht Brand Identity & Packaging",
+        "desc": "Behisht's branding and packaging design exemplify the company's true vision and values. Every aspect of the design process was meticulously crafted to capture the essence of the brand and its offerings. From the logo to the packaging materials and label designs, each element reflects Behisht's commitment to excellence, quality, and authenticity.",
+            "cats": [
+                "Branding & Identity",
+                "Logo design",
+                "Package Design"
+            ],
+            "images": [
+            'assets/icons/projects/behisht/1.png',
+            'assets/icons/projects/behisht/2.png',
+            'assets/icons/projects/behisht/3.png',
+            'assets/icons/projects/behisht/4.png',
+            'assets/icons/projects/behisht/5.png',
+            'assets/icons/projects/behisht/6.png',
+            'assets/icons/projects/behisht/7.png',
+            'assets/icons/projects/behisht/8.png'
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

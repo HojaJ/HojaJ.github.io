@@ -1,0 +1,32 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Ariator Website",
+        "desc": "Ariator Aviation is dedicated to provide reliable, effective and efficient service for airlines and airport by supporting on technical and technological aspects and provision of necessary equipment and systems.",
+        "cats": [
+                "UX/UI Design",
+                "Website",
+                "Dashboard"
+            ],
+            "images": [
+            'assets/icons/projects/ariator/1.png',
+            'assets/icons/projects/ariator/2.png',
+            'assets/icons/projects/ariator/3.png',
+            'assets/icons/projects/ariator/4.png',
+            'assets/icons/projects/ariator/5.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')

@@ -1,0 +1,36 @@
+@@include('./partials/header.html')
+
+<body>
+@@include('./partials/load.html')
+@@include('./partials/navbar-secondary.html')
+<div class="ScrollSmoother-content">
+    <main>
+        @@include('./partials/project_detail.html',{
+        "name": "Kopetdag Mineral Water Package Design",
+        "desc": 'Embodies progress and innovation in the chemical industry, specializing in producing chemicals and mixtures tailored for various applications, including the food industry. The brand exudes a sense of reli-ability, sustainability, and advancement, positioning itself as a leader in driving positive change within the chemical sector.',
+        "cats": [
+                "Branding & Identity",
+                "Logo design",
+                "Brand Guideline",
+                "Package Design"
+            ],
+            "images": [
+            'assets/icons/projects/kopetdag/1.png',
+            'assets/icons/projects/kopetdag/2.png',
+            'assets/icons/projects/kopetdag/3.png',
+            'assets/icons/projects/kopetdag/4.png',
+            'assets/icons/projects/kopetdag/5.png',
+            'assets/icons/projects/kopetdag/6.png',
+            'assets/icons/projects/kopetdag/7.png',
+            'assets/icons/projects/kopetdag/8.png',
+            ]
+        })
+    </main>
+</div>
+
+@@include('./partials/footer.html')
+<button id="back-top" class="btn-backToTop">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+</body>
+@@include('./partials/end.html')
