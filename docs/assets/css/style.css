@@ -7738,3 +7738,8 @@ button {
   flex-wrap: wrap;
   margin-bottom: 100px;
 }
+
+.secondary_btn {
+  background-color: #052C41 !important;
+  border-color:#052C41 !important;
+}
