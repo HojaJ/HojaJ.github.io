@@ -6201,13 +6201,13 @@ button {
   margin-bottom: 15px;
 }
 
-.team-details__item-right .social-icons {
+.social-icons {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.team-details__item-right .social-icons a {
+.social-icons a {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -6215,7 +6215,6 @@ button {
   border-radius: 50%;
   transition: var(--transition);
   line-height: 37px;
-  background-color: var(--primary-color);
 }
 
 .process-area {
