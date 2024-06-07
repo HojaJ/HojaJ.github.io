@@ -2163,7 +2163,13 @@ button {
   font-family: var(--inter);
   font-size: 18px;
 }
-
+.menu-filter button {
+  border-color:#E2E2E2 !important;
+}
+.menu-filter button:hover,
+.menu-filter button.active{
+  background-color: var(--blue-color);
+}
 @media (max-width: 575px) {
 
   .btn-one,
@@ -2640,7 +2646,7 @@ button {
 
 .header-area.menu-fixed {
   top: 0;
-  background: linear-gradient(180deg, rgba(255, 254, 239, 0.95) 0%, rgba(255, 255, 255, 0.95) 103.91%);
+  background: linear-gradient(180deg, rgba(239, 250, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%);
   box-shadow: var(--shadow);
 }
 
@@ -3651,7 +3657,7 @@ button {
   overflow: hidden;
   padding-top: 210px;
   padding-bottom: 120px;
-  background: linear-gradient(180deg, rgba(255, 254, 239, 0.9) 0%, rgba(255, 255, 255, 0.9) 103.91%);
+  background: linear-gradient(180deg, rgba(239, 250, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%);
 }
 
 @media (max-width: 991px) {
@@ -3663,7 +3669,7 @@ button {
 
 .banner-inner__content {
   text-align: center;
-  max-width: 580px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -3673,7 +3679,7 @@ button {
   line-height: 32px;
   letter-spacing: 1.2px;
   font-weight: 600;
-  color: #235947;
+  color: #01B9F9;
   text-transform: uppercase;
 }
 
@@ -3809,7 +3815,7 @@ button {
   text-align: center;
   border-radius: 50%;
   transition: var(--transition);
-  background-color: #de9fff;
+  background-color: #01B9F9;
   display: inline-block;
   margin-right: 6px;
   border-radius: 3px;
@@ -4519,8 +4525,7 @@ button {
   text-transform: uppercase;
   padding: 6px 12px;
   border-radius: 10px;
-  background: #01b9f9;
-  /*background: linear-gradient(154.65deg, #ffffff 18.87%, rgba(255, 255, 255, 0.51) 98.9%, rgba(255, 255, 255, 0.6) 98.9%);*/
+  background: #ffffff;
 }
 
 .service-four__image .tags a:hover {
@@ -4577,7 +4582,7 @@ button {
 
 .service-details__image img,
 .case-details__image img {
-  border-radius: 32px;
+  border-radius: 0;
 }
 
 .service-details__wrp,
@@ -5251,7 +5256,7 @@ button {
 }
 
 .book__wrp {
-  background-color: var(--primary-color);
+  background-color: #052C41;
   border-radius: 40px;
   padding: 60px 30px;
   position: relative;
@@ -5949,7 +5954,7 @@ button {
 .reset-password__item {
   padding: 50px;
   border-radius: 32px;
-  background-color: #f1efe9;
+  background-color: #F6F7F7;
 }
 
 @media (max-width: 575px) {
@@ -6946,7 +6951,7 @@ button {
 
 /*@media (max-width: 1199px) {*/
   .footer-four-area {
-    background-color: #000000;;
+    background-color: #021217;;
   }
 /*}*/
 

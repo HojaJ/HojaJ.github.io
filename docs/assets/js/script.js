@@ -59,6 +59,11 @@ CSS TABLE OF CONTENTS
 			fixed_top.removeClass("menu-fixed fadeInDown");
 		}
 	});
+	if ($(window).scrollTop() > 50) {
+		fixed_top.addClass("menu-fixed animated fadeInDown");
+	}
+
+
 	// Header area end here ***
 
 	// Gsap Animation area start here ***
