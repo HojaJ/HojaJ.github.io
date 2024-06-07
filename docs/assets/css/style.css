@@ -40,7 +40,7 @@ CSS TABLE OF CONTENTS
   --secondary-color: #101b17;
   --tertiary-color: #235947;
   --yellow-color: #ecb13e;
-  --blue-color: #4635ff;
+  --blue-color: #01B9F9;
   --main-bg: #ffffff;
   --sub-bg: #f1f7f4;
   --sub-bg-three: #fafafb;
@@ -2820,7 +2820,7 @@ button {
 
 .header__main .menu-btns .sign-in {
   padding: 8px 24px;
-  background: linear-gradient(238.89deg, #3c866d 19.48%, #256e56 68.82%);
+  background: linear-gradient(238.89deg, #01b9f9 3.48%, #01b9f9 68.82%);
   color: var(--white);
   border-radius: 12px;
 }
@@ -2853,7 +2853,7 @@ button {
   content: "";
   width: 100%;
   height: 100%;
-  background-image: url(/images/shape/btn.png);
+  /*background-image: url(/images/shape/btn.png);*/
   background-position: center;
   background-size: cover;
 }
@@ -2864,9 +2864,10 @@ button {
   line-height: 35px;
   border-radius: 40px;
   text-align: center;
-  background-color: var(--white);
+  background-color: #01b9f9;
   overflow: hidden;
   position: relative;
+
 }
 
 .header__main .menu-btns .menu-arry-btn svg {
@@ -4514,11 +4515,12 @@ button {
   gap: 15px;
 }
 
-.service-four__image .tags a {
+.service-four__image .tags span {
   text-transform: uppercase;
   padding: 6px 12px;
   border-radius: 10px;
-  background: linear-gradient(154.65deg, #ffffff 18.87%, rgba(255, 255, 255, 0.51) 98.9%, rgba(255, 255, 255, 0.6) 98.9%);
+  background: #01b9f9;
+  /*background: linear-gradient(154.65deg, #ffffff 18.87%, rgba(255, 255, 255, 0.51) 98.9%, rgba(255, 255, 255, 0.6) 98.9%);*/
 }
 
 .service-four__image .tags a:hover {
@@ -4695,7 +4697,7 @@ button {
 .story__item.inner-page .btn-two,
 .story__item.inner-page .btn-four {
   border-radius: 100px;
-  border: 1px solid var(--yellow-color);
+  border: 1px solid var(--blue-color);
   text-transform: uppercase;
   background-color: transparent;
 }
@@ -4703,19 +4705,19 @@ button {
 .story__item.inner-page .btn-one span i,
 .story__item.inner-page .btn-two span i,
 .story__item.inner-page .btn-four span i {
-  color: var(--heading-color);
+  color: var(--blue-color);
 }
 
 .story__item.inner-page .btn-one:hover,
 .story__item.inner-page .btn-two:hover,
 .story__item.inner-page .btn-four:hover {
-  color: var(--heading-color);
+  color: var(--blue-color);
 }
 
 .story__item.inner-page .btn-one:hover span i,
 .story__item.inner-page .btn-two:hover span i,
 .story__item.inner-page .btn-four:hover span i {
-  color: var(--heading-color);
+  color: var(--blue-color);
 }
 
 .story__btn {
@@ -6944,7 +6946,7 @@ button {
 
 /*@media (max-width: 1199px) {*/
   .footer-four-area {
-    background-color: #151314;
+    background-color: #000000;;
   }
 /*}*/
 
@@ -7720,5 +7722,14 @@ button {
 .animation__goAll3 {
   animation: goAll3 30s infinite linear;
 }
-
-/*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 1200px) {
+  .project_title {
+    max-width: 60% !important;
+  }
+}
+.menu-filter {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}

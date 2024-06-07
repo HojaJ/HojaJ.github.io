@@ -36,7 +36,7 @@ function appendChild(el, child) {
  */
 function createElement(parent, key, text, whitespace) {
   var el = root.createElement('span');
-  key && (el.class = key); 
+  key && (el.className = key); 
   if (text) { 
       !whitespace && el.setAttribute("data-" + key, text);
       el.textContent = text; 
