@@ -160,6 +160,9 @@ CSS TABLE OF CONTENTS
 		},
 		breakpoints: {
 			991: {
+				slidesPerView: 1.5,
+			},
+			1200: {
 				slidesPerView: 2,
 			},
 		},

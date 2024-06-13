@@ -2980,7 +2980,7 @@ button {
 
 @media screen and (max-width: 375px) {
   .offcanvas {
-    width: 320px !important;
+    width: 100% !important;
   }
 }
 
@@ -7894,4 +7894,54 @@ footer a {
   flex-direction: row;
   align-items: center;
   gap: 12px;
+}
+@media (min-width: 991px) and (max-width: 2000px) {
+  .service-four__slider {
+      padding-right: 30rem;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1400px) {
+  .service-four__slider {
+    padding-right: 40rem;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .service-four__slider {
+    padding-right: 50rem;
+  }
+}
+
+.service-four__image .tags{
+  display: none;
+}
+.service-four__slider .swiper-slide {
+  max-width: 860px;
+}
+.offcanvas-header .logo img {
+  max-width: 170px;
+}
+
+@media  (max-width: 991px) {
+  .hide_on_mobile {
+    display: none;
+  }
+}
+.about_us_block {
+  padding: 40px 20px;
+  border-radius: 24px;
+  margin-top: 30px;
+}
+.about_us_block h4 {
+  font-size: 1.75rem;
+  font-weight: 500;
+
+}
+.about_us_block-first {
+  background-color: #F2FCF5;
+}
+
+.about_us_block-second {
+  background-color: #ECFCFF;
 }
